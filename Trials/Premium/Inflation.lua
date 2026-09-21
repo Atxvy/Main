@@ -1,7 +1,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
 local Globals = getgenv()
 
-TDS:Loadout("Ace Pilot", "Trapper", "Gatling Gun", "Medic", "Hacker")
 TDS:Mode("Trial")
 
 TDS:Ready()
@@ -43,7 +42,7 @@ TDS:VoteSkip(10)
 TDS:WaitForWave(11)
 TDS:Sell(2)
 TDS:Sell(1)
-TDS:Place("Gatling Gun", -29.271320343017578, 1.026092529296875, -36.15842819213867)
+TDS:Place("Gatling Gun", -29.271320343017578, 1.026092529296875, -36.15842819213867,true)
 
 -- [ Wave 11 ] --
 TDS:Upgrade(3)
@@ -67,6 +66,7 @@ TDS:Upgrade(7)
 TDS:Upgrade(7)
 TDS:Upgrade(4)
 TDS:Upgrade(4)
+
 TDS:Upgrade(4)
 TDS:Upgrade(5)
 TDS:Upgrade(5)
@@ -240,3 +240,5 @@ TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
+TDS:Ability(23, "Hologram Tower", {towerPosition = Vector3.new(-29.271320343017578, 21.026092529296875, -36.15842819213867), towerToClone = 3}, true)
+TDS:Ability(24, "Hologram Tower", {towerPosition = Vector3.new(-29.271320343017578, 21.026092529296875, -36.15842819213867), towerToClone = 3}, true)
