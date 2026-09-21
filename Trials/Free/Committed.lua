@@ -8,9 +8,6 @@ TDS:Place("Scout", -60.73588562011719, 30.36585807800293, -53.430694580078125)
  loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
 
 local Globals = getgenv()
-Globals.AutoGatling = true
-Globals.AutoDJ = true
-Globals.AutoMercenary = true
 
 -- [ Wave 1 ] --
 TDS:Place("Scout", -64.09095764160156, 30.86126708984375, -24.255138397216797)
