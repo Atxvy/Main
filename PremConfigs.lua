@@ -10,7 +10,7 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Speedy.lua", -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Speedy.lua", -- done
         }
     },
     ["Glass"] = {
@@ -22,8 +22,8 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Glass.lua", --done
-			["Tower 2"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Premium/Glass.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Glass.lua", --done
+			["Tower 2"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Premium/Glass.lua" -- done
         }
     },
     ["Quarantine"] = {
@@ -35,8 +35,8 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Quarantine.lua", -- done
-			["Tower 2"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Premium/Quarantine.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Quarantine.lua", -- done
+			["Tower 2"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Premium/Quarantine.lua" -- done
         }
     },
     ["Fog"] = {
@@ -48,8 +48,8 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Fog.lua", --done
-			["Tower 2"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Premium/Fog.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Fog.lua", --done
+			["Tower 2"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Premium/Fog.lua" -- done
         }
     },
     ["Limitation"] = {
@@ -60,7 +60,7 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/HUB/refs/heads/main/PremiumTrials/Limitation.lua"
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Limitation.lua"
         }
     },
     ["Flying Enemies"] = {
@@ -71,7 +71,7 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/HUB/refs/heads/main/PremiumTrials/Flying.lua"
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Flying.lua"
         }
     },
     ["Jailed"] = {
@@ -82,7 +82,7 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Jailed.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Jailed.lua" -- done
         }
     },
     ["Exploding Enemies"] = {
@@ -94,19 +94,21 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Exploading.lua", -- done
-			["Tower 2"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Premium/Exploading.lua" --done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Exploading.lua", -- done
+			["Tower 2"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Exploading.lua" --done
         }
     },
     ["Inflation"] = {
         Level = 175,
         Towers = {
-            ["Tower 1"] = {"Ace Pilot", "Trapper", "Gatling Gun", "DJ Booth", "Medic"}
+            ["Tower 1"] = {"Ace Pilot", "Trapper", "Gatling Gun", "Tesla", "Medic"},
+			["Tower 2"] = {"Ace Pilot", "Trapper", "Gatling Gun", "Hacker", "Medic"}
         },
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Inflation.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Inflation.lua", -- done
+			["Tower 2"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Premium/Inflation.lua", -- done
         }
     },
     ["Committed"] = {
@@ -131,7 +133,7 @@ RevampAutoTrials = {
             ["Extreme Conditioning"] = 25,
         },
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Committed.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Committed.lua" -- done
         }
     },
     ["Hidden Enemies"] = {
@@ -142,7 +144,7 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/HUB/refs/heads/main/PremiumTrials/Hidden.lua"
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Hidden.lua"
         }
     },
     ["Broke"] = {
@@ -154,8 +156,8 @@ RevampAutoTrials = {
         Golden = {},
         SkillTree = {},
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Broke.lua", -- done
-            ["Tower 2"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Premium/Broke.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Broke.lua", -- done
+            ["Tower 2"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Premium/Broke.lua" -- done
         }
     },
     ["Healthy Enemies"] = {
@@ -175,7 +177,7 @@ RevampAutoTrials = {
             ["Resourcefulness"] = 10,
         },
         scripts = {
-            ["Tower 1"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/Free/Healthy.lua" -- done
+            ["Tower 1"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Free/Healthy.lua" -- done
         }
     },
 },
