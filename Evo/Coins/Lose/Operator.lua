@@ -1,4 +1,3 @@
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/API.lua"))()
 
 local Globals = getgenv()
 Globals.AutoSkip = true
