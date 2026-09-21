@@ -191,7 +191,7 @@ RevampAutoTrials = {
             Maps = {"Lay By"},
              Modifiers = {
                 HiddenEnemies = true, 
-                SpeedyEnemies = true, 
+                Glass = false, 
                 Fog = true, 
                 Limitation = true, 
                 Committed = true, 
@@ -199,7 +199,7 @@ RevampAutoTrials = {
                 ExplodingEnemies = true
             },
             Scripts = {
-                ["Lay By"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/WinStrat/MoltenLayby.lua", -- done
+                ["Lay By"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Fallbacks/MoltenLayby.lua", -- done
             },
         },
         ["Fallen"] = {
@@ -210,7 +210,7 @@ RevampAutoTrials = {
             Maps = {"Lay By"},
              Modifiers = {
                 HiddenEnemies = true, 
-                SpeedyEnemies = true, 
+                Glass = false, 
                 Fog = true, 
                 Limitation = true, 
                 Committed = true, 
@@ -218,7 +218,7 @@ RevampAutoTrials = {
                 ExplodingEnemies = true
             },
             Scripts = {
-                ["Lay By"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/WinStrat/FallenLayby.lua", --done
+                ["Lay By"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Fallbacks/FallenLayby.lua", --done
             },
         }
     },
@@ -233,8 +233,8 @@ RevampAutoTrials = {
                 SkillTree = {},
                 Maps = {"Simplicity", "Winter Abyss"},
                 Scripts = {
-                    ["Simplicity"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/LostStrat/Simplicity.lua", -- done
-					["Winter Abyss"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/LostStrat/WinterAbyss.lua", -- done
+                    ["Simplicity"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Currency/Coins/Lose/Simplicity.lua", -- done
+					["Winter Abyss"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Currency/Coins/Lose/WinterAbyss.lua", -- done
                 },
             },
             Win = {
@@ -246,7 +246,7 @@ RevampAutoTrials = {
                 Maps = {"Lay By"},
                 Modifiers = {
                 HiddenEnemies = true, 
-                SpeedyEnemies = true, 
+                SpeedyEnemies = false, 
                 Fog = true, 
                 Limitation = true, 
                 Committed = true, 
@@ -254,7 +254,7 @@ RevampAutoTrials = {
                 ExplodingEnemies = true
             },
                 Scripts = {
-                    ["Lay By"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/WinStrat/FallenLayby.lua", -- done
+                    ["Lay By"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Trials/Fallbacks/FallenLayby.lua", -- done
                 },
             },
         },
@@ -267,7 +267,7 @@ RevampAutoTrials = {
                 SkillTree = {},
                 Maps = {"Wretched Front"},
                 Scripts = {
-                    ["Wretched Front"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/LostStrat/WretchedForest.lua", -- done
+                    ["Wretched Front"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Currency/Gems/Lose/WretchedFront.lua", -- done
                 },
             },
             Win = {
@@ -278,7 +278,7 @@ RevampAutoTrials = {
                 SkillTree = {},
                 Maps = {"Wretched Front"},
                 Scripts = {
-                    ["Wretched Front"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Trials/LostStrat/WretchedForest.lua", -- done
+                    ["Wretched Front"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Currency/Gems/Lose/WretchedFront.lua", -- done
                 },
             },
         },
@@ -304,16 +304,16 @@ RevampAutoTrials = {
             -- Dynamic scripts based on the active tower you are farming
           Scripts = {
                 ["Scout"] = {
-                    ["Simplicity"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Lose/Operator.lua",
+                    ["Simplicity"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Lose/Operator.lua",--done
                 },
                 ["Shotgunner"] = {
-                    ["Simplicity"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Lose/Enforcer.lua",
+                    ["Simplicity"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Lose/Enforcer.lua",--done
                 },
                 ["Crook Boss"] = {
-                    ["Simplicity"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Lose/Kingpin.lua",
+                    ["Simplicity"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Lose/Kingpin.lua",--done
                 },
                 ["Minigunner"] = {
-                    ["Simplicity"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Lose/Juggernaut.lua",
+                    ["Simplicity"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Lose/Juggernaut.lua",--done
                 }
             }
         },
@@ -325,7 +325,7 @@ RevampAutoTrials = {
             Maps = {"Lay By"},
 			Modifiers = {
                 HiddenEnemies = true, 
-                SpeedyEnemies = true, 
+                SpeedyEnemies = false, 
                 Fog = true, 
                 Limitation = true, 
                 Committed = true, 
@@ -340,16 +340,16 @@ RevampAutoTrials = {
             },
             Scripts = {
                 ["Scout"] = {
-                    ["Lay By"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Win/Operator.lua",
+                    ["Lay By"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Win/Operator.lua",--done
                 },
                 ["Shotgunner"] = {
-                    ["Lay By"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Win/Enforcer.lua",
+                    ["Lay By"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Win/Enforcer.lua",--done
                 },
                 ["Crook Boss"] = {
-                    ["Lay By"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Win/Kingpin.lua",
+                    ["Lay By"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Win/Kingpin.lua",--done
                 },
                 ["Minigunner"] = {
-                    ["Lay By"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Win/Juggernaut.lua",
+                    ["Lay By"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Coins/Win/Juggernaut.lua",--done
                 }
             }
         },
@@ -369,16 +369,16 @@ RevampAutoTrials = {
             },
             Scripts = {
                 ["Scout"] = {
-                    ["Wretched Front"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Gems/Lose/Operator.lua",
+                    ["Wretched Front"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Gems/Lose/Operator.lua",--done
                 },
                 ["Shotgunner"] = {
-                    ["Wretched Front"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Gems/Lose/Enforcer.lua",
+                    ["Wretched Front"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Gems/Lose/Enforcer.lua",--done
                 },
                 ["Crook Boss"] = {
-                    ["Wretched Front"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Gems/Lose/Kingpin.lua",
+                    ["Wretched Front"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Gems/Lose/Kingpin.lua",--done
                 },
                 ["Minigunner"] = {
-                    ["Wretched Front"] = "https://raw.githubusercontent.com/Pornnsfw/Main/refs/heads/main/Evo/Gems/Lose/Juggernaut.lua",
+                    ["Wretched Front"] = "https://raw.githubusercontent.com/Atxvy/Main/refs/heads/main/Evo/Gems/Lose/Juggernaut.lua",--done
                 }
             }
         }
