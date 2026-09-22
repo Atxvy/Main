@@ -1,7 +1,7 @@
 
 local Globals = getgenv()
 
-
+Globals.AutoMercenary = true
 TDS:Place("Trapper", 2.810445785522461, 243, 207.17857360839844, true)
 TDS:Ready()
 
