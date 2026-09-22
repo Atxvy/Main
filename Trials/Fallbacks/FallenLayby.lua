@@ -1,6 +1,7 @@
 
 local Globals = getgenv()
 Globals.AutoMercenary = true
+
 TDS:Loadout("Trapper", "Gatling Gun", "Medic", "Mercenary Base", "Hacker")
 TDS:Place("Trapper", 3.4956111907958984, 243, 206.29818725585938, true)
 TDS:Ready()
