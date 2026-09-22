@@ -1,6 +1,5 @@
 
 local Globals = getgenv()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
 
 
 TDS:Loadout("Trapper", "Gatling Gun", "Hacker", "Crook Boss", "EvolvedKingpin")
