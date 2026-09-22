@@ -1,5 +1,4 @@
 
- loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
 TDS:Loadout("Assassin", "Scout", "Paintballer", "DJ Booth", "Gatling Gun")
 TDS:Mode("Trial")
 TDS:Place("Scout", 135.47198486328125, 2.0749998092651367, -47.1058349609375)
