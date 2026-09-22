@@ -1,7 +1,6 @@
 
 local Globals = getgenv()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
 
 TDS:Place("Trapper", 2.810445785522461, 243, 207.17857360839844, true)
 TDS:Ready()
