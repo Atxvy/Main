@@ -1,158 +1,158 @@
 
+TDS:Loadout("Gatling Gun", "Medic", "Mercenary Base", "Militant", "Trapper")
 TDS:Mode("Trial")
 
-TDS:Place("Militant", -26.024681091308594, 1.0249866247177124, -18.323253631591797)
-TDS:Ready()
 
 local Globals = getgenv()
-Globals.AutoDJ = true
 Globals.AutoMercenary = true
-
+TDS:Place("Trapper", -22.65850830078125, 1.0249813795089722, 8.1775484085083)
+TDS:Ready()
 
 -- [ Wave 2 ] --
 TDS:Upgrade(1)
-TDS:Place("Militant", -28.698577880859375, 1.0249983072280884, -16.635093688964844)
 
 -- [ Wave 3 ] --
+TDS:Place("Trapper", -22.779254913330078, 1.02498197555542, 5.013918876647949)
 TDS:Upgrade(2)
 
--- [ Wave 5 ] --
-TDS:Place("Militant", -26.687320709228516, 1.0249885320663452, -21.825031280517578)
+-- [ Wave 4 ] --
+TDS:Place("Trapper", -19.51474952697754, 1.024969220161438, 7.768464088439941)
 TDS:Upgrade(3)
 
 -- [ Wave 6 ] --
 TDS:Upgrade(1)
-
--- [ Wave 7 ] --
-TDS:Upgrade(2)
-
--- [ Wave 8 ] --
-TDS:VoteSkip(8)
+TDS:SetOption(1, "Trap", "Landmine")
 
 -- [ Wave 9 ] --
-TDS:Place("Gatling Gun", 13.95383358001709, 1.0249983072280884, -3.201427459716797)
-TDS:Place("DJ Booth", 4.151457786560059, 1.0249898433685303, -2.5088634490966797)
-TDS:SetOption(5, "Track", "Green")
-TDS:Upgrade(5)
+TDS:Place("Gatling Gun", 14.253275871276855, 1.0249979496002197, -3.169900894165039)
 
 -- [ Wave 10 ] --
-TDS:Upgrade(5)
-
--- [ Wave 11 ] --
 TDS:Upgrade(4)
-
--- [ Wave 12 ] --
-TDS:Upgrade(5)
-
--- [ Wave 13 ] --
-TDS:Place("Medic", 13.841072082519531, 1.0249888896942139, 0.32943296432495117)
-TDS:Place("Medic", 10.417244911193848, 1.0249947309494019, -2.575251579284668)
-TDS:Place("Medic", 11.315581321716309, 1.0249855518341064, 2.467991590499878)
-TDS:Place("Medic", 7.4610443115234375, 1.0249876976013184, -0.2093672752380371)
-TDS:Upgrade(4)
-
-
--- [ Wave 14 ] --
-
 
 -- [ Wave 15 ] --
-TDS:Upgrade(5)
-
--- [ Wave 17 ] --
 TDS:Upgrade(4)
-TDS:Place("Militant", 0.20116710662841797, 1.0249916315078735, 0.7473878860473633)
-TDS:Place("Militant", -3.0163769721984863, 1.0249922275543213, 2.1781482696533203)
-TDS:Place("Militant", -4.202177047729492, 1.0249788761138916, 5.74641227722168)
-
--- [ Wave 18 ] --
-TDS:Place("Militant", -6.279012680053711, 1.0249912738800049, 2.7331056594848633)
-TDS:Place("Militant", -4.845836639404297, 1.024991750717163, -0.6274895668029785)
-
--- [ Wave 19 ] --
-TDS:Place("Militant", -1.7281951904296875, 1.0249912738800049, -2.177159309387207)
-TDS:Place("Militant", -8.164923667907715, 1.024986982345581, -1.4484214782714844)
-TDS:Place("Militant", -9.217976570129395, 1.0249836444854736, 2.073732376098633)
-TDS:Upgrade(5)
+TDS:Upgrade(4)
 
 -- [ Wave 20 ] --
-TDS:Place("Mercenary Base", 20.072059631347656, 1.0249956846237183, -3.257134437561035)
-TDS:Place("Mercenary Base", 20.068439483642578, 1.024985671043396, 1.5627102851867676)
-TDS:Place("Mercenary Base", 13.956260681152344, 1.0249866247177124, 5.294579982757568)
-
--- [ Wave 22 ] --
 TDS:Upgrade(4)
-TDS:Place("Militant", 7.5341057777404785, 1.0249947309494019, 2.9056577682495117)
-TDS:Place("Militant", 5.512523651123047, 1.024986743927002, 7.536896228790283)
-TDS:Place("Militant", 1.5242643356323242, 1.024989128112793, 8.541702270507812)
-TDS:Place("Militant", -1.9159698486328125, 1.0249879360198975, 8.922757148742676)
+TDS:Place("Medic", 14.418441772460938, 1.0249862670898438, 0.3752326965332031)
+TDS:Place("Medic", 10.381035804748535, 1.0249971151351929, -2.969792366027832)
+TDS:Place("Medic", 11.106056213378906, 1.0249890089035034, 0.15732479095458984)
+TDS:Place("Medic", 14.02885913848877, 1.0249956846237183, 3.6202526092529297)
 
--- [ Wave 24 ] --
-TDS:Upgrade(9)
-TDS:Upgrade(9)
-TDS:Upgrade(9)
-TDS:Upgrade(7)
-TDS:Upgrade(7)
-TDS:Upgrade(7)
-TDS:Upgrade(6)
-TDS:Upgrade(6)
-TDS:Upgrade(6)
-TDS:Upgrade(8)
-TDS:Upgrade(8)
-TDS:Upgrade(8)
+-- [ Wave 23 ] --
 TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Bear Traps")
 
 -- [ Wave 28 ] --
 TDS:Upgrade(4)
-TDS:Upgrade(18)
-TDS:Upgrade(18)
-TDS:Upgrade(18)
-TDS:Upgrade(18)
-Globals.AutoMedic = true
-TDS:SetOption(18, "Unit 1", "Riot Guard")
-Globals.AutoMedic = true
-
--- [ Wave 29 ] --
-TDS:SetOption(18, "Unit 2", "Riot Guard")
-TDS:SetOption(18, "Unit 3", "Riot Guard")
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:SetOption(19, "Unit 1", "Riot Guard")
-TDS:SetOption(19, "Unit 2", "Riot Guard")
-TDS:SetOption(19, "Unit 3", "Riot Guard")
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:SetOption(20, "Unit 1", "Riot Guard")
-TDS:SetOption(20, "Unit 2", "Riot Guard")
-TDS:SetOption(20, "Unit 3", "Riot Guard")
-
--- [ Wave 31 ] --
-TDS:Upgrade(7)
-TDS:Upgrade(7)
 
 -- [ Wave 32 ] --
-TDS:Upgrade(9)
-TDS:Upgrade(9)
-TDS:MedicSelect(9, 19)
-TDS:MedicSelect(9, 19)
 TDS:Upgrade(6)
 TDS:Upgrade(6)
-TDS:Upgrade(20)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
 TDS:Upgrade(8)
-TDS:Upgrade(19)
-TDS:Upgrade(18)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
 
 -- [ Wave 33 ] --
-TDS:Upgrade(8)
-TDS:Upgrade(20)
-TDS:Upgrade(19)
-TDS:Upgrade(18)
-TDS:Ability(19, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1), dist = 115, pathName = 1})
-TDS:Ability(18, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1), dist = 115, pathName = 1})
-TDS:Ability(20, "Air-Drop", {directionCFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1), dist = 115, pathName = 1})
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+Globals.AutoMedic = true
+TDS:SetOption(3, "Trap", "Bear Traps")
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Place("Trapper", -22.660043716430664, 1.024986743927002, -11.135065078735352)
+TDS:Place("Trapper", -21.907629013061523, 1.0249881744384766, -17.739826202392578)
+TDS:Place("Trapper", -29.11419105529785, 1.0249923467636108, -14.822504043579102)
+TDS:Place("Trapper", -25.344728469848633, 1.0249868631362915, -17.704391479492188)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Trap", "Landmine")
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Trap", "Landmine")
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:SetOption(9, "Trap", "Landmine")
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Landmine")
+TDS:Place("Mercenary Base", 20.075435638427734, 1.0249980688095093, -3.716623306274414)
+TDS:Place("Mercenary Base", 20.070899963378906, 1.0249863862991333, 0.8245491981506348)
+TDS:Place("Mercenary Base", 10.180636405944824, 1.024991512298584, 4.590729236602783)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Unit 1", "Riot Guard")
+TDS:SetOption(13, "Unit 2", "Riot Guard")
+TDS:SetOption(13, "Unit 3", "Riot Guard")
 
 -- [ Wave 34 ] --
-TDS:SetOption(5, "Track", "Red")
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Unit 1", "Riot Guard")
+TDS:SetOption(14, "Unit 2", "Riot Guard")
+TDS:SetOption(14, "Unit 3", "Riot Guard")
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Unit 1", "Riot Guard")
+TDS:SetOption(15, "Unit 3", "Riot Guard")
+TDS:SetOption(15, "Unit 2", "Riot Guard")
+TDS:Upgrade(15)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 38 ] --
+TDS:Place("Militant", -21.982595443725586, 1.024990200996399, -26.2470760345459)
+TDS:Place("Militant", -33.48286437988281, 1.0249906778335571, -32.46119689941406)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Ability(16, "Hologram Tower", {towerPosition = Vector3.new(5.691069602966309, 1.024991512298584, 1.0847172737121582), towerToClone = 4})
